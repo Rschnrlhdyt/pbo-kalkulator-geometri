@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="162" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="RBPersegiPanjang" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Pilih" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <Component id="RBTrapesium" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="RBLingkaran" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="RBPersegi" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="86" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="RBJajarGenjang" min="-2" max="-2" attributes="0"/>
+                          <Component id="RBLayangLayang" min="-2" max="-2" attributes="0"/>
+                          <Component id="RBSegitiga" min="-2" max="-2" attributes="0"/>
+                          <Component id="Keluar" min="-2" max="-2" attributes="0"/>
+                          <Component id="RBBelahKetupat" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="RBPersegi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RBJajarGenjang" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="RBLingkaran" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RBLayangLayang" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="RBTrapesium" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RBSegitiga" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="RBPersegiPanjang" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RBBelahKetupat" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Pilih" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Keluar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="62" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bangun Datar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pilih Bangun Datar :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RBPersegi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Persegi"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RBLingkaran">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lingkaran"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RBTrapesium">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Trapesium"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RBPersegiPanjang">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Persegi Panjang"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RBJajarGenjang">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jajar Genjang"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RBLayangLayang">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Layang-layang"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RBSegitiga">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Segitiga"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RBBelahKetupat">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Belah Ketupat"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Pilih">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pilih"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PilihActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Keluar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Keluar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="KeluarActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
